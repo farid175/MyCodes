@@ -17,9 +17,9 @@ public class ArrayDemo {
         }
 
         System.out.println("Netice:");
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if(arr[i] + arr[j] == K) {
+        for (int i = 0; i < arr.length/2; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if(arr[i] + arr[j] == K && i != j) {
                     System.out.print("{" + arr[i] + " " + arr[j] + "}");
                 }
             }
