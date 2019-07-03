@@ -9,7 +9,7 @@ public class ArrayDemo {
         int n = scan.nextInt();
 
         int[] arr = new int[n];
-        System.out.println("Massivi doldur:");
+       
         for (int i = 0; i < arr.length; i++) {
            arr[i] = (int) (Math.random() * 20);
         }
