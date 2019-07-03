@@ -1,3 +1,4 @@
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import java.util.Scanner;
 
@@ -15,14 +16,18 @@ public class ArrayDemo {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scan.nextInt();
         }
-
+        int flag = 0;
         System.out.println("Netice:");
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < i; j++) {
                 if(arr[i] + arr[j] == K) {
                     System.out.print("{" + arr[i] + " " + arr[j] + "}");
+                    flag++;
                 }
             }
+        }
+        if(flag == 0){
+            System.out.println("tapilmadi");
         }
 
     }
