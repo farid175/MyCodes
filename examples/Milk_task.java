@@ -6,7 +6,7 @@ public class Calculator {
         Random rnd =  new Random();
         int[] student = new int[100];
         int milk = 200;
-        int count = 1;
+        int count = 0;
         int max = 100;
         int min = 10;
 
