@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Array3DMain {
+public class Array2DMain {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int count = 0;
