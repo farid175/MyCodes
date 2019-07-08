@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Array2DMain {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int count = 0;
         System.out.println("Setir:");
         int n = scan.nextInt();
         System.out.println("Sutun:");
