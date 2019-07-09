@@ -8,6 +8,7 @@ public class twodimensionalArr {
         int n = scan.nextInt();
         int[][] arr = new int[n][n];
 
+        System.out.println("Fill the Array:");
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 arr[i][j] = scan.nextInt();
