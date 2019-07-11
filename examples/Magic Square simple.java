@@ -13,9 +13,13 @@ public class Main{
         int number = 1;
         int row = 0;
         int column = n / 2;
+        int curr_row;
+        int curr_col;
         while (number <= n * n) {
             magicSquare[row][column] = number;
             number++;
+            curr_row = row;
+            curr_col = column;
             row -= 1;
             column += 1;
             if (row == -1) {
@@ -24,11 +28,12 @@ public class Main{
             if (column == n) {
                 column = 0;
             }
-            if (row == 0 && column == n - 1) {
-                column = n - 1;
-                row += 1;
-            } else if (magicSquare[row][column] != 0) {
-                row += 1;
+            if (magicSquare[row][column] != 0) {
+                row = curr_row + 1;
+                column = curr_col;
+                if (row == -1) {
+                    row = n - 1;
+                }
             }
         }
 
