@@ -1,0 +1,139 @@
+import java.math.BigDecimal;
+import java.sql.*;
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class MainClass {
+    public static void main(String[] args) {
+        String username = "hr";
+        String password = "HR";
+
+        String jdbcUrl = "jdbc:oracle:thin:@//10.251.82.9:1521/ORCL";
+
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+
+        try {
+            String jdbcDriver = "oracle.jdbc.driver.OracleDriver";
+
+            Class.forName(jdbcDriver);
+
+            con = DriverManager.getConnection(jdbcUrl,username,password);
+
+            con.setAutoCommit(false);
+
+
+
+            String sql = "select employee_id, first_name,last_name,job_id,salary " +
+                    "from employees " +
+                    "order by salary desc ";
+
+            ps = con.prepareStatement(sql);
+
+            rs = ps.executeQuery();
+
+            while(rs.next()){
+                int id = rs.getInt("employee_id");
+                String firstName = rs.getString("first_name");
+                String lastName = rs.getString("last_name");
+                String jobId = rs.getString("job_id");
+                BigDecimal salary = rs.getBigDecimal("salary");
+
+                System.out.println(id + " " + firstName +" " + lastName + " " + jobId + " " + salary);
+            }
+
+            sql = "insert into employees(employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id) " +
+                    "values(employees_seq.nextval,?,?,?,?,?,?,?,?,?,?)";
+
+
+                    ps = con.prepareStatement(sql);
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.print("Iwci = ");
+            String firstName = scanner.nextLine();
+            System.out.print("Iwci soyad = ");
+            String lastName = scanner.nextLine();
+            System.out.print("email = ");
+            String mail = scanner.nextLine();
+            System.out.print("telefon = ");
+            String phone = scanner.nextLine();
+            System.out.print("Vezife = ");
+            String job = scanner.nextLine();
+            System.out.print("Maas = ");
+            BigDecimal salary = scanner.nextBigDecimal();
+
+            ps.setString(1,firstName);
+            ps.setString(2,lastName);
+            ps.setString(3,mail);
+            ps.setString(4,phone);
+            ps.setDate(5,Date.valueOf(LocalDate.now()));
+            ps.setString(6,job);
+            ps.setBigDecimal(7,salary);
+            ps.setNull(8,Types.DECIMAL);
+            ps.setLong(9,103);
+            ps.setLong(10,60);
+
+            int count = ps.executeUpdate();
+            System.out.println(count + "isci elave olundu");
+
+
+            sql = "update employees  " +
+                    "set salary = salary + ? " +
+                    "where salary < ? and department_id = 60";
+
+            System.out.print("Minimal maas = ");
+            BigDecimal minimum = scanner.nextBigDecimal();
+            System.out.print("Maaw artimi = ");
+            BigDecimal increase = scanner.nextBigDecimal();
+
+            ps = con.prepareStatement(sql);
+
+            ps.setBigDecimal(1,increase);
+            ps.setBigDecimal(2,minimum);
+            count = ps.executeUpdate();
+            System.out.println(count + "iwcinin maawi artirildi");
+
+
+            con.commit();
+
+        } catch (ClassNotFoundException e) {
+            System.out.println("Oracle jdbc driver tapilmadi");
+            e.printStackTrace();
+        } catch (SQLException e) {
+            System.out.println("Bazada iw zamani problem yarandi" + e.getMessage());
+            e.printStackTrace();
+            try {
+                con.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        } finally {
+            if(rs != null){
+                try {
+                    rs.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if(ps != null){
+                try {
+                    ps.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if(con != null){
+                try {
+                    con.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+}
+
