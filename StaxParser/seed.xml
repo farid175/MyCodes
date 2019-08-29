@@ -1,0 +1,251 @@
+<SEEDS>
+    <header>
+        <ID/>
+        <NAME>Bitki qrupunun adı</NAME>
+        <CODE>Sortun kodu</CODE>
+        <HIBRID_NAME>Sortun /hibridin adı</HIBRID_NAME>
+        <PATENT_NUMBER>Patent nömrəsi</PATENT_NUMBER>
+        <START_DATE>Patentin verilmə tarixi </START_DATE>
+        <PATENT_OWNER>Patent sahibi(sortun hüquqi sahibi)</PATENT_OWNER>
+        <END_DATE>Patentin başa çatması</END_DATE>
+        <START_REGISTER_DATE>Dövlət reyestrinə daxil edilib</START_REGISTER_DATE>
+    </header>
+    <body>
+        <SEED>
+            <ID>1</ID>
+            <NAME>
+                Paxlalı-Tərəvəz bitkiləri Tərəvəz noxudu - Pisum sativum subsp. Sativum
+            </NAME>
+            <CODE>600113</CODE>
+            <HIBRID_NAME>Namiq</HIBRID_NAME>
+            <PATENT_NUMBER>№00125 </PATENT_NUMBER>
+            <START_DATE>2009-04-03</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET Tərəvəzçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2029-12-31</END_DATE>
+            <START_REGISTER_DATE>2009</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>2</ID>
+            <NAME>Şüyüd - Anethum graveolens L. </NAME>
+            <CODE>9201211</CODE>
+            <HIBRID_NAME>Otello</HIBRID_NAME>
+            <PATENT_NUMBER>№00029 </PATENT_NUMBER>
+            <START_DATE>1995-02-20</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET Tərəvəzçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2016-12-31</END_DATE>
+            <START_REGISTER_DATE>1996</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>3</ID>
+            <NAME>Razyana -Foeniculum vulgare Mill.</NAME>
+            <CODE>9104631</CODE>
+            <HIBRID_NAME>Ağcabədi</HIBRID_NAME>
+            <PATENT_NUMBER>№00030</PATENT_NUMBER>
+            <PATENT_OWNER>Azərbaycan Kənd Təsərrüfatı Akademiyası</PATENT_OWNER>
+            <END_DATE>2015-12-31</END_DATE>
+            <START_REGISTER_DATE>1995</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>4</ID>
+            <NAME>
+                Bostan Bitkiləri Süfrə qarpızı - Citrullus vulgaris Pang.
+            </NAME>
+            <CODE>9102710</CODE>
+            <HIBRID_NAME>Mərcan</HIBRID_NAME>
+            <PATENT_NUMBER>№00034 </PATENT_NUMBER>
+            <START_DATE>1996-02-22</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET Tərəvəzçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2016-12-31</END_DATE>
+            <START_REGISTER_DATE>1996</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>5</ID>
+            <NAME>Bostan Bitkiləri Yemiş -Cucumis melo L. </NAME>
+            <CODE>1400389</CODE>
+            <HIBRID_NAME>Veteren</HIBRID_NAME>
+            <PATENT_NUMBER>№ 00226 </PATENT_NUMBER>
+            <START_DATE>2017-02-02</START_DATE>
+            <PATENT_OWNER>Azərbaycan Tərəvəzçilik ET İnstitutu</PATENT_OWNER>
+            <END_DATE>2037-12-31</END_DATE>
+            <START_REGISTER_DATE>2017</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>6</ID>
+            <NAME>Bostan Bitkiləri Yemiş -Cucumis melo L. </NAME>
+            <CODE>1400240</CODE>
+            <HIBRID_NAME>Nazlı</HIBRID_NAME>
+            <PATENT_NUMBER>№ 00227 </PATENT_NUMBER>
+            <START_DATE>2017-02-02</START_DATE>
+            <PATENT_OWNER>AMEA, Genetik Ehtiyatlar İnstitutu</PATENT_OWNER>
+            <END_DATE>2037-12-31</END_DATE>
+            <START_REGISTER_DATE>2017</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>7</ID>
+            <NAME>Tut ağacı -Morus L.</NAME>
+            <CODE>8102465</CODE>
+            <HIBRID_NAME>AzNIIŞ 7</HIBRID_NAME>
+            <PATENT_NUMBER>№00062 </PATENT_NUMBER>
+            <START_DATE>2000-03-17</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2021-12-31</END_DATE>
+            <START_REGISTER_DATE>2001</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>8</ID>
+            <NAME>Tut ağacı -Morus L.</NAME>
+            <CODE>9103651</CODE>
+            <HIBRID_NAME>Bağça tut</HIBRID_NAME>
+            <PATENT_NUMBER>№00105 </PATENT_NUMBER>
+            <START_DATE>2007-04-12</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2028-12-31</END_DATE>
+            <START_REGISTER_DATE>2008</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>9</ID>
+            <NAME>Tut ağacı -Morus L.</NAME>
+            <CODE>132</CODE>
+            <HIBRID_NAME>Yunus tut</HIBRID_NAME>
+            <PATENT_NUMBER>№00140 </PATENT_NUMBER>
+            <START_DATE>2011-04-19</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2031-12-31</END_DATE>
+            <START_REGISTER_DATE>2011</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>10</ID>
+            <NAME>Tut ağacı -Morus L.</NAME>
+            <CODE>100080</CODE>
+            <HIBRID_NAME>Məhsəti 900</HIBRID_NAME>
+            <PATENT_NUMBER>№00157 </PATENT_NUMBER>
+            <START_DATE>2013-06-11</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2033-12-31</END_DATE>
+            <START_REGISTER_DATE>2013</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>11</ID>
+            <NAME>Tut ağacı -Morus L.</NAME>
+            <CODE>700061</CODE>
+            <HIBRID_NAME>Nağı tut </HIBRID_NAME>
+            <PATENT_NUMBER> № 00228 </PATENT_NUMBER>
+            <START_DATE>2017-02-02</START_DATE>
+            <PATENT_OWNER>Heyvandarlıq ET İnstitutu</PATENT_OWNER>
+            <END_DATE>2042-12-31</END_DATE>
+            <START_REGISTER_DATE>2017</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>12</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <HIBRID_NAME>Almaz x Yaşar Yaşar x Almaz</HIBRID_NAME>
+            <PATENT_NUMBER>№00005 </PATENT_NUMBER>
+            <START_DATE>1992-03-05</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2013-12-31</END_DATE>
+            <START_REGISTER_DATE>1993</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>13</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>8800618</CODE>
+            <HIBRID_NAME>Ukrayna x Yubileynaya Yubileynaya x Ukrayna.1</HIBRID_NAME>
+            <PATENT_NUMBER>№00004 </PATENT_NUMBER>
+            <START_DATE>1992-03-05</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2013-12-31</END_DATE>
+            <START_REGISTER_DATE>1993</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>14</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>8800618</CODE>
+            <HIBRID_NAME>Yubileynaya</HIBRID_NAME>
+            <PATENT_NUMBER>№00040 </PATENT_NUMBER>
+            <START_DATE>1997-03-28</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2015-12-31</END_DATE>
+            <START_REGISTER_DATE>1997</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>15</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>8606390</CODE>
+            <HIBRID_NAME>Yaşar</HIBRID_NAME>
+            <PATENT_NUMBER>№00041 </PATENT_NUMBER>
+            <START_DATE>1997-03-28</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2015-12-31</END_DATE>
+            <START_REGISTER_DATE>1997</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>16</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>8606390</CODE>
+            <HIBRID_NAME>Almaz</HIBRID_NAME>
+            <PATENT_NUMBER>№00042 </PATENT_NUMBER>
+            <START_DATE>1997-03-28</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik institutu</PATENT_OWNER>
+            <END_DATE>2015-12-31</END_DATE>
+            <START_REGISTER_DATE>1997</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>17</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>9500146</CODE>
+            <HIBRID_NAME>Mayak2 x Mayak3</HIBRID_NAME>
+            <PATENT_NUMBER>№00063 </PATENT_NUMBER>
+            <START_DATE>2000-03-17</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2021-12-31</END_DATE>
+            <START_REGISTER_DATE>2001</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>18</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>9500138</CODE>
+            <HIBRID_NAME>Mayak3 x Mayak2</HIBRID_NAME>
+            <PATENT_NUMBER>№00064 </PATENT_NUMBER>
+            <START_DATE>2000-03-17</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2021-12-31</END_DATE>
+            <START_REGISTER_DATE>2001</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>19</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>9500197</CODE>
+            <HIBRID_NAME>Mayak2 (cins)</HIBRID_NAME>
+            <PATENT_NUMBER> №00074 </PATENT_NUMBER>
+            <START_DATE>2000-03-17</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2022-12-31</END_DATE>
+            <START_REGISTER_DATE>2002</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>20</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>9500189</CODE>
+            <HIBRID_NAME>Mayak3 (cins)</HIBRID_NAME>
+            <PATENT_NUMBER>№00075 </PATENT_NUMBER>
+            <START_DATE>2000-03-17</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2022-12-31</END_DATE>
+            <START_REGISTER_DATE>2002</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>21</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>9800123</CODE>
+            <HIBRID_NAME>Yaşar x Gəncə 6</HIBRID_NAME>
+            <PATENT_NUMBER>№00076 </PATENT_NUMBER>
+            <START_DATE>2002-03-15</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2023-12-31</END_DATE>
+            <START_REGISTER_DATE>2003</START_REGISTER_DATE>
+        </SEED>
+        <SEED>
+            <ID>22</ID>
+            <NAME>Tut ipəkqurdu -Bombux mori L.</NAME>
+            <CODE>9800115</CODE>
+            <HIBRID_NAME>Gəncə 6 x Yaşar</HIBRID_NAME>
