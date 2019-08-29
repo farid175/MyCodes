@@ -1,0 +1,108 @@
+<SEEDS>
+    <header>
+        <ID/>
+        <NAME>Bitki qrupunun adı</NAME>
+        <CODE>Sortun kodu</CODE>
+        <HIBRID_NAME>Sortun /hibridin adı</HIBRID_NAME>
+        <PATENT_NUMBER>Patent nömrəsi</PATENT_NUMBER>
+        <START_DATE>Patentin verilmə tarixi </START_DATE>
+        <PATENT_OWNER>Patent sahibi(sortun hüquqi sahibi)</PATENT_OWNER>
+        <END_DATE>Patentin başa çatması</END_DATE>
+        <START_REGISTER_DATE>Dövlət reyestrinə daxil edilib</START_REGISTER_DATE>
+    </header>
+    <body>
+        <SEED ID = "1">
+            <NAME>
+                Paxlalı-Tərəvəz bitkiləri Tərəvəz noxudu - Pisum sativum subsp. Sativum
+            </NAME>
+            <CODE>600113</CODE>
+            <HIBRID_NAME>Namiq</HIBRID_NAME>
+            <PATENT_NUMBER>№00125 </PATENT_NUMBER>
+            <START_DATE>2009-04-03</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET Tərəvəzçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2029-12-31</END_DATE>
+            <START_REGISTER_DATE>2009</START_REGISTER_DATE>
+        </SEED>
+        <SEED ID = "2">
+            <NAME>Şüyüd - Anethum graveolens L. </NAME>
+            <CODE>9201211</CODE>
+            <HIBRID_NAME>Otello</HIBRID_NAME>
+            <PATENT_NUMBER>№00029 </PATENT_NUMBER>
+            <START_DATE>1995-02-20</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET Tərəvəzçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2016-12-31</END_DATE>
+            <START_REGISTER_DATE>1996</START_REGISTER_DATE>
+        </SEED>
+        <SEED ID = "3">
+            <NAME>Razyana -Foeniculum vulgare Mill.</NAME>
+            <CODE>9104631</CODE>
+            <HIBRID_NAME>Ağcabədi</HIBRID_NAME>
+            <PATENT_NUMBER>№00030</PATENT_NUMBER>
+            <PATENT_OWNER>Azərbaycan Kənd Təsərrüfatı Akademiyası</PATENT_OWNER>
+            <END_DATE>2015-12-31</END_DATE>
+            <START_REGISTER_DATE>1995</START_REGISTER_DATE>
+        </SEED>
+        <SEED ID = "4">
+            <NAME>
+                Bostan Bitkiləri Süfrə qarpızı - Citrullus vulgaris Pang.
+            </NAME>
+            <CODE>9102710</CODE>
+            <HIBRID_NAME>Mərcan</HIBRID_NAME>
+            <PATENT_NUMBER>№00034 </PATENT_NUMBER>
+            <START_DATE>1996-02-22</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET Tərəvəzçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2016-12-31</END_DATE>
+            <START_REGISTER_DATE>1996</START_REGISTER_DATE>
+        </SEED>
+        <SEED ID = "5">
+            <NAME>Bostan Bitkiləri Yemiş -Cucumis melo L. </NAME>
+            <CODE>1400389</CODE>
+            <HIBRID_NAME>Veteren</HIBRID_NAME>
+            <PATENT_NUMBER>№ 00226 </PATENT_NUMBER>
+            <START_DATE>2017-02-02</START_DATE>
+            <PATENT_OWNER>Azərbaycan Tərəvəzçilik ET İnstitutu</PATENT_OWNER>
+            <END_DATE>2037-12-31</END_DATE>
+            <START_REGISTER_DATE>2017</START_REGISTER_DATE>
+        </SEED>
+        <SEED ID = "6">
+            <NAME>Bostan Bitkiləri Yemiş -Cucumis melo L. </NAME>
+            <CODE>1400240</CODE>
+            <HIBRID_NAME>Nazlı</HIBRID_NAME>
+            <PATENT_NUMBER>№ 00227 </PATENT_NUMBER>
+            <START_DATE>2017-02-02</START_DATE>
+            <PATENT_OWNER>AMEA, Genetik Ehtiyatlar İnstitutu</PATENT_OWNER>
+            <END_DATE>2037-12-31</END_DATE>
+            <START_REGISTER_DATE>2017</START_REGISTER_DATE>
+        </SEED>
+        <SEED ID = "7">
+            <NAME>Tut ağacı -Morus L.</NAME>
+            <CODE>8102465</CODE>
+            <HIBRID_NAME>AzNIIŞ 7</HIBRID_NAME>
+            <PATENT_NUMBER>№00062 </PATENT_NUMBER>
+            <START_DATE>2000-03-17</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2021-12-31</END_DATE>
+            <START_REGISTER_DATE>2001</START_REGISTER_DATE>
+        </SEED>
+        <SEED ID = "8">
+            <NAME>Tut ağacı -Morus L.</NAME>
+            <CODE>9103651</CODE>
+            <HIBRID_NAME>Bağça tut</HIBRID_NAME>
+            <PATENT_NUMBER>№00105 </PATENT_NUMBER>
+            <START_DATE>2007-04-12</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2028-12-31</END_DATE>
+            <START_REGISTER_DATE>2008</START_REGISTER_DATE>
+        </SEED>
+        <SEED ID = "9">
+            <NAME>Tut ağacı -Morus L.</NAME>
+            <CODE>132</CODE>
+            <HIBRID_NAME>Yunus tut</HIBRID_NAME>
+            <PATENT_NUMBER>№00140 </PATENT_NUMBER>
+            <START_DATE>2011-04-19</START_DATE>
+            <PATENT_OWNER>Azərbaycan ET İpəkçilik İnstitutu</PATENT_OWNER>
+            <END_DATE>2031-12-31</END_DATE>
+            <START_REGISTER_DATE>2011</START_REGISTER_DATE>
+        </SEED>
+    </body>
+</SEEDS>
